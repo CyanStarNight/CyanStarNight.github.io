@@ -12,6 +12,12 @@
       
       
       
+        <tags>
+            
+            <tag> tech </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -56,6 +62,12 @@
         <content type="html"><![CDATA[<h2 id="1-numpy、tensor、list相互转换">1. numpy、tensor、list相互转换</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">tensor = tensor.cpu()</span><br><span class="line">tensor = tensor.cuda()</span><br><span class="line"></span><br><span class="line">numpy = tensor.numpy()</span><br><span class="line">tensor = torch.from_numpy( numpy )</span><br><span class="line"></span><br><span class="line"><span class="built_in">list</span> = tensor.numpy().tolist()</span><br><span class="line">tensor = torch.Tensor(<span class="built_in">list</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="2-string-格式控制">2. string 格式控制</h2><ul><li><p><strong>{} &amp; .format()</strong></p><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;******&#123;&#125;****&#123;&#125;****&quot;</span>.<span class="built_in">format</span>(a,b)</span><br><span class="line"><span class="string">&quot;******&#123;1&#125;****&#123;2&#125;*****&#123;0&#125;&quot;</span>.<span class="built_in">format</span>(x,y,z)</span><br><span class="line"><span class="comment">#******y*****z*******x</span></span><br><span class="line"></span><br></pre></td></tr></table></figure></li><li><p><strong>$</strong></p></li><li><p><strong>%</strong></p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">%d</span><br><span class="line">%f</span><br></pre></td></tr></table></figure></li></ul><h2 id="3-partial函数">3. <a href="https://blog.csdn.net/qq_33688922/article/details/91890142?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163470725716780262538861%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&amp;request_id=163470725716780262538861&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-91890142.pc_search_result_cache&amp;utm_term=python+partial&amp;spm=1018.2226.3001.4187">partial函数</a></h2><blockquote><p><strong>“冻结参数”</strong></p></blockquote><h2 id="4-Lambda">4. <a href="https://blog.csdn.net/PY0312/article/details/88956795?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163470481116780261980203%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&amp;request_id=163470481116780261980203&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-3-88956795.pc_search_result_cache&amp;utm_term=python+lambda&amp;spm=1018.2226.3001.4187">Lambda</a></h2><h2 id="5-导包细则">5. <a href="https://blog.csdn.net/suiyueruge1314/article/details/102683546">导包细则</a></h2><pre><code>[模块与包](https://blog.csdn.net/qiqicos/article/details/79208039?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163471588816780255226690%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=163471588816780255226690&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-79208039.pc_search_all_es&amp;utm_term=python%E4%B8%AD%E5%8C%85%E5%92%8C%E6%A8%A1%E5%9D%97&amp;spm=1018.2226.3001.4187)(针对相对导入而言的)</code></pre><blockquote><p><strong>init</strong>.py文件在包里是必须的,其中__all__代表着包里所有的类和方法</p><p>python中什么是模块?<strong>name</strong> == main代表着什么? python -m xxx.py又是干什么的?</p></blockquote><h2 id="6-os和sys设置路径">6. os和sys设置路径</h2><h2 id="7-zip函数">7.<a href="https://blog.csdn.net/qq_44034384/article/details/107302183?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163723239016780366550183%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=163723239016780366550183&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-107302183.pc_search_all_es&amp;utm_term=zip%E5%87%BD%E6%95%B0&amp;spm=1018.2226.3001.4187">zip函数</a></h2><h2 id="8-在Python中的作用">8.<a href="https://blog.csdn.net/yhs_cy/article/details/79438706">在Python中的作用</a></h2>]]></content>
       
       
+      <categories>
+          
+          <category> record </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -74,6 +86,12 @@
       
         <content type="html"><![CDATA[<h2 id="先上结论：">先上结论：</h2><table><thead><tr><th>平台</th><th>缺点</th></tr></thead><tbody><tr><td><a href="http://SM.MS">SM.MS</a></td><td>啥都好，就是只有5G空间</td></tr><tr><td>Gitee</td><td>单个文件大小不能超过1Mb</td></tr><tr><td>Github</td><td>不稳定</td></tr><tr><td>七牛云</td><td>手续略麻烦，10G空间，http协议（https需要你给域名证书）</td></tr></tbody></table><blockquote><p>以上结论都是在免费情况下讨论的，付费情况直接盲选就行</p></blockquote><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> sys```</span><br></pre></td></tr></table></figure><p>看滨康，秉林澜科比；看。兵临将科比。k</p><p>cxzxczx</p>]]></content>
       
+      
+      <categories>
+          
+          <category> blog </category>
+          
+      </categories>
       
       
         <tags>
