@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>python项目</title>
+      <link href="/2022/02/25/python%E9%A1%B9%E7%9B%AE/"/>
+      <url>/2022/02/25/python%E9%A1%B9%E7%9B%AE/</url>
+      
+        <content type="html"><![CDATA[<h1>#项目#</h1><ul><li><a href="https://github.com/facebookresearch/swav">swav</a></li><li><a href="https://github.com/coffee19850519/single_cell_spatial_image">singlecell</a></li><li><a href="https://github.com/happy-noob/drop_of_life">韶光</a></li><li><a href="https://github.com/happy-noob/ResearchTool">ResearchTool</a></li></ul><h1>#API#</h1><ul><li>openCV</li><li><a href="siyuan://blocks/20211222145109-se1br0k">pytorch</a></li><li>paddle</li><li>tensorflow</li></ul><h1>cv2 踩坑记录：</h1><ul><li>路径不要有中文</li><li>cv2.imwrite()即便路径错了不会报错!!它只识别后缀是不是图片，中间的全不管（是用file_name参数接收的）</li><li>cv2.imread()如果读不出来就会返回NoneType</li><li>cv2.imshow()在展示很小的图时，如果放大窗口，会看到紊乱，但数据似乎是没错的。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> record </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> project </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20220225121632</title>
       <link href="/2022/02/25/%E7%BD%91%E7%BB%9C%E7%BB%B4%E4%BF%AE%E8%AE%B0/"/>
       <url>/2022/02/25/%E7%BD%91%E7%BB%9C%E7%BB%B4%E4%BF%AE%E8%AE%B0/</url>
