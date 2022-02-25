@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>CyanBlog配置进度</title>
+      <link href="/2022/02/25/CyanBlog%E9%85%8D%E7%BD%AE%E8%BF%9B%E5%BA%A6/"/>
+      <url>/2022/02/25/CyanBlog%E9%85%8D%E7%BD%AE%E8%BF%9B%E5%BA%A6/</url>
+      
+        <content type="html"><![CDATA[<h1>TODO (6)</h1><ul><li>_config.butterfly.yml:123   default_cover error</li><li>_config.butterfly.yml:218   Post edit error</li><li>_config.butterfly.yml:375   Chat Button [recommend]</li><li>_config.butterfly.yml:412   Footer Settings</li><li>_config.butterfly.yml:505   Website Background (設置網站背景)</li><li>_config.butterfly.yml:691   newest_comments error</li></ul><h1>Considers:</h1><ul><li>Circle CI自动部署(已采用)</li><li>vps or ECS deploy</li><li>DNS负载均衡(双Git) or CDN</li><li>ICP备案 -&gt; 七牛云</li><li>搜索引擎收录</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> record </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Machine Learning Course —— Andrew Ng</title>
       <link href="/2022/02/25/Machine-Learning-Course-%E2%80%94%E2%80%94-Andrew-Ng/"/>
       <url>/2022/02/25/Machine-Learning-Course-%E2%80%94%E2%80%94-Andrew-Ng/</url>
