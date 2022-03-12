@@ -4,11 +4,30 @@
   
     
     <entry>
+      <title>智慧树网课刷分</title>
+      <link href="/2022/03/12/%E6%99%BA%E6%85%A7%E6%A0%91%E7%BD%91%E8%AF%BE%E5%88%B7%E5%88%86/"/>
+      <url>/2022/03/12/%E6%99%BA%E6%85%A7%E6%A0%91%E7%BD%91%E8%AF%BE%E5%88%B7%E5%88%86/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>作为一个网课得过58分、70分、100分的选手，我应该算是有资格写一点刷分技巧吧。。</p></blockquote><h3 id="先说分数构成：线下平时作业分-网课进度分-习惯分-测试分-讨论分-见面课分">先说分数构成：线下平时作业分+网课进度分+习惯分+测试分+讨论分+见面课分</h3><blockquote><p>直接上硬核方法，会从两个需求角度入手。</p></blockquote><h2 id="最省事流程：80">最省事流程：80+</h2><blockquote><p>油猴一条龙，但有些脚本要稍稍改一下源码才能刷习惯分，学过一点前端都能看得懂，很简单。</p></blockquote><p>前期：油猴脚本刷进度和习惯分 + 平时作业直接拿选过这课的人/引擎搜索+翻译 + 油猴脚本刷测试和期末题 + 见面课期末一次性补完（也是挂油猴）</p><h2 id="最高分流程：95">最高分流程：95+</h2><blockquote><p>卡一点讨论分bug</p></blockquote><p>想要得高分，肯定得下一点功夫，我这里直接总结好，拿去用就行。<br>油猴脚本是不够稳定的，各方面都有缺陷，比如负载啊、题库啊等等，有兴趣的自己评测，我这里不细说了，与主题无关。（但保你80肯定够了）<br>挨个讨论：</p><ul><li>线下作业用上面那套也是可行的，但尽量找分高的同学要作业。此外一部分老师已经发现了这个现象，所以并不稳妥，建议方法是：** 全都要 **，无论是百度谷歌知网，还是要他人作业，全拿一部分抄过来，作业字数一定要尽可能多。</li><li>习惯分想要高分就自己刷，每天25分钟挂在那不碍啥事，想要图省事就改油猴脚本源码，里面一般都有跳过提问和习惯刷分这两处（但根据我经验，脚本的习惯刷分不太靠谱，跳过提问还行）</li><li>进度分就在习惯分刷满后挂脚本5倍速一天解决</li><li>见面课不同的网课有不同的要求，有的不算见面课，有的要求，这点得自己看清楚（见面课那页看分数占比就行）想稳妥点就给自己定todo，当天上线挂脚本就行</li><li>讨论分大概是最难的了，其实不同网课面向受众不同，与你一起上这课的外校生越多这里的分就越容易刷（校内太卷，比如体质健康）这个时候就得分析一下讨论分构成：提问分+回答分+点赞分。考虑到现在的年轻人都很卷，想刷这里的分就得有点技巧：<ul><li>刚开课的那两周把教师提问都回答满，上点心，或许能捞到教师点赞直接+10分，也可以顺便刷点提问，期末你就知道真香了。</li><li>弄清楚你期末考啥时候，期末前一两周的时候开始刷回答分，记住，<strong>每次回答完要给自己点赞！</strong> 官方的算分规则简单来说就是提问分有上限（似乎是10分，看你的有效提问下的回答数量，所以你前期这里刷了期末可以直接不刷），而回答分和点赞分是没上限的，并且<strong>不区分是谁点的赞！</strong> 似乎是每次有效回答+1分，每次点赞+0.5分，所以你按这个方法来，你每次可以+1.5分，当数量叠上去之后你绝对遥遥领先。（如果你有认识的人也选了这课，可以跟他约好时间一起刷分并且相互点赞，这蝴蝶效应就来了👀）</li></ul></li><li>最后测试分就很好办了,学小易+油猴+百度, 油猴搜不出来的题上学小易/百度可以很快解决。</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> exp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CyanBlog配置进度</title>
       <link href="/2022/02/25/CyanBlog%E9%85%8D%E7%BD%AE%E8%BF%9B%E5%BA%A6/"/>
       <url>/2022/02/25/CyanBlog%E9%85%8D%E7%BD%AE%E8%BF%9B%E5%BA%A6/</url>
       
-        <content type="html"><![CDATA[<h1>TODO (6)</h1><ul><li>_config.butterfly.yml:123   default_cover error</li><li>_config.butterfly.yml:218   Post edit error</li><li>_config.butterfly.yml:375   Chat Button [recommend]</li><li>_config.butterfly.yml:412   Footer Settings</li><li>_config.butterfly.yml:505   Website Background (設置網站背景)</li><li>_config.butterfly.yml:691   newest_comments error</li></ul><h1>Considers:</h1><ul><li>动态博客系统(不采用)</li></ul><blockquote><p>动态系统不够安全稳定，也没多少挑战</p></blockquote><ul><li>Circle CI自动部署(已采用)</li></ul><blockquote><p>目前是双仓库管理，后面可能会考虑双分支管理</p></blockquote><ul><li>更改为便携式Hexo</li><li>vps or ECS deploy</li><li>DNS负载均衡(采用) or CDN(采用)</li><li>ICP备案 -&gt; 七牛云</li><li>搜索引擎收录</li></ul><h1>Problems:</h1><ul><li>刷新反馈较慢，需要配置压缩图片和Nginx</li><li>七牛云图床没有真正落实</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1>TODO (6)</h1><ul><li>_config.butterfly.yml:123   default_cover error</li><li>_config.butterfly.yml:218   Post edit error</li><li>_config.butterfly.yml:375   Chat Button [recommend]</li><li>_config.butterfly.yml:412   Footer Settings</li><li>_config.butterfly.yml:505   Website Background (設置網站背景)</li><li>_config.butterfly.yml:691   newest_comments error</li></ul><h1>Considers:</h1><ul><li>动态博客系统(不采用)</li></ul><blockquote><p>动态系统不够安全稳定，也没多少挑战</p></blockquote><ul><li>Circle CI自动部署(已采用)</li></ul><blockquote><p>目前是双仓库管理，后面可能会考虑双分支管理</p></blockquote><ul><li>更改为便携式Hexo</li><li>vps or ECS deploy(暂不采用)</li><li>DNS负载均衡(待采用) or CDN(待采用)</li><li>ICP备案 -&gt; 七牛云</li><li>搜索引擎收录</li></ul><h1>Problems:</h1><ul><li>刷新反馈较慢，需要配置压缩图片和Nginx</li><li>七牛云图床没有真正落实</li></ul>]]></content>
       
       
       
